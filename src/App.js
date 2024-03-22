@@ -6,7 +6,7 @@ import RootLayout from "./layouts/RootLayout";
 
 // pages
 import Todos from './pages/todos/Todos';
-import Contact from './pages/contact/Contact';
+import Contact, { contactAction } from './pages/contact/Contact'; 
 
 
 // styles
@@ -23,10 +23,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    
-
     <RouterProvider router={router} />
-    
   );
 }
 
